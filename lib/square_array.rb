@@ -1,3 +1,4 @@
 def square_array(array)
-  array.to
+  while square_array(array) do
+    puts square_array(array)^2
 end
