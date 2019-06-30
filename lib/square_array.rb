@@ -1,4 +1,9 @@
 def square_array(array)
-  while square_array(array) do
-    puts square_array(array)^2
+  counter=0
+
+while array[counter]do
+  array[counter]**2
+    counter += 1
+  end
+
 end
